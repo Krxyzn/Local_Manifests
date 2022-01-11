@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Trees -->
+ <project path="device/xiaomi/santoni" name="https://github.com/JktFdrxProjektz/android_device_xiaomi_santoni" remote="github" revision="twelve" />
+ <project path="kernel/xiaomi" name="https://github.com/JktFdrxProjektz/L_check_msm-4.9" remote="github" revision="wip" />
+ <project path="vendor/xiaomi" name="https://github.com/JktFdrxProjektz/android_vendor_xiaomi_santoni" remote="github" revision="12.0" />
+ 
+</manifest>

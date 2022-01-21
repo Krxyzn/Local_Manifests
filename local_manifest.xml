@@ -6,7 +6,7 @@
  <project path="kernel/xiaomi/msm8937" name="https://github.com/JktFdrxProjektz/L_check_msm-4.9" remote="github" revision="wip" />
  <project path="vendor/xiaomi" name="https://github.com/JktFdrxProjektz/android_vendor_xiaomi_santoni" remote="github" revision="12.0" />
 
- rm -rf hardware/qcom-caf/wlan
+ <remove-project name="platform_hardware_qcom_wlan" />
  <project path="hardware/qcom-caf/wlan" name="https://github.com/ItoRenz-Build/android_hardware_qcom_wlan" remote="github" revision="12" />
  
 </manifest>

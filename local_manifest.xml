@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/xiaomi/santoni" name="https://github.com/JktFdrxProjektz/android_device_xiaomi_santoni" remote="github" revision="twelve" />
- <project path="kernel/xiaomi/msm8937" name="https://github.com/JktFdrxProjektz/L_check_msm-4.9" remote="github" revision="wip" />
- <project path="vendor/xiaomi" name="https://github.com/JktFdrxProjektz/android_vendor_xiaomi_santoni" remote="github" revision="12.0" />
- <remove-project name="platform_hardware_qcom-caf_wlan" />
- <project path="hardware/qcom-caf/wlan" name="https://github.com/ItoRenz-Build/android_hardware_qcom_wlan" remote="github" revision="12" />
- 
+  <remote name="JktFdrxProjektz"
+          fetch="https://github.com/JktFdrxProjektz" />
+          
+  <remote name="ItoRenz"
+          fetch="https://github.com/ItoRenz-Build" />
+
+
+  <!-- Trees -->
+        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="JktFdrxProjektz" revision="twelve" />
+        <project path="vendor/xiaomi" name="android_vendor_xiaomi_santoni" remote="JktFdrxProjektz" revision="12.0" />
+        <project path="kernel/xiaomi/msm8937" name="L_check_msm-4.9" remote="JktFdrxProjektz" revision="wip" />
+
+  <!-- Extra -->
+        <remove-project name="android_hardware_qcom_wlan" />
+        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="itoRenz-Build" revision="12.0" />
+
 </manifest>

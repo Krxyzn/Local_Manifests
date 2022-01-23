@@ -15,6 +15,6 @@
 
   <!-- Extra -->
         <remove-project name="platform_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="itoRenz-Build" revision="12" />
+        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="ItoRenz-Build" revision="12" />
 
 </manifest>

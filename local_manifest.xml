@@ -14,7 +14,7 @@
         <project path="kernel/xiaomi/msm8937" name="L_check_msm-4.9" remote="JktFdrxProjektz" revision="wip" />
 
   <!-- Extra -->
-        <remove-project name="platform_hardware_qcom_wlan" />
+        <remove-project name="platform_hardware_qcom-caf_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="itoRenz-Build" revision="12" />
 
 </manifest>

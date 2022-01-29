@@ -3,13 +3,16 @@
 
   <remote name="JktFdrxProjektz"
           fetch="https://github.com/JktFdrxProjektz" />
+  
+    <remote name="Krxyzn"
+          fetch="https://github.com/Krxyzn" />
           
   <remote name="ItoRenz-Build"
           fetch="https://github.com/ItoRenz-Build" />
 
 
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="JktFdrxProjektz" revision="nad" />
+        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="Krxyzn" revision="Twelve" />
         <project path="vendor/xiaomi" name="android_vendor_xiaomi_santoni" remote="JktFdrxProjektz" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="L_check_msm-4.9" remote="JktFdrxProjektz" revision="wip" />
 

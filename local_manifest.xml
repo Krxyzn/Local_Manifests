@@ -12,9 +12,9 @@
 
 
   <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="Krxyzn" revision="Twelve" />
+        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="Krxyzn" revision="ci" />
         <project path="vendor/xiaomi" name="android_vendor_xiaomi_santoni" remote="JktFdrxProjektz" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="L_check_msm-4.9" remote="JktFdrxProjektz" revision="wip" />
+        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_santoni" remote="JktFdrxProjektz" revision="wip" />
 
   <!-- Extra -->
         <remove-project name="android_hardware_qcom-caf_wlan" />

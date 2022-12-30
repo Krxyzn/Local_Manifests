@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
+<manifest> 
 
-  <remote name="JktFdrxProjektz"
-          fetch="https://github.com/JktFdrxProjektz" />
-  
-    <remote name="Krxyzn"
-          fetch="https://github.com/Krxyzn" />
-          
-  <remote name="ItoRenz-Build"
-          fetch="https://github.com/ItoRenz-Build" />
+<remote name="Krxyzn"
+          fetch="https://github.com/Krxyzn" /> 
 
-
-  <!-- Trees -->
-        <project path="device/xiaomi/santoni" name="android_device_xiaomi_santoni" remote="Krxyzn" revision="ci" />
-        <project path="vendor/xiaomi" name="android_vendor_xiaomi_santoni" remote="JktFdrxProjektz" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_santoni" remote="JktFdrxProjektz" revision="wip" />
-
-  <!-- Extra -->
-        <remove-project name="android_hardware_qcom-caf_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="ItoRenz-Build" revision="12" />
-
+    <!-- Trees -->
+    <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="Krxyzn" revision="los-19.1" />
+    <project path="vendor/xiaomi/garden" name="proprietary_vendor_xiaomi_garden.git" remote="Krxyzn" revision="twelve30" /> 
+    
 </manifest>

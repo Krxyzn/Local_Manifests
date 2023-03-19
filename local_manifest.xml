@@ -5,7 +5,7 @@
           fetch="https://github.com/Krxyzn" /> 
 
     <!-- Trees -->
-    <project path="device/xiaomi/garden" name="android_device_xiaomi_garden.git" remote="Krxyzn" revision="los-19.1" />
-    <project path="vendor/xiaomi/garden" name="proprietary_vendor_xiaomi_garden.git" remote="Krxyzn" revision="twelve30" /> 
+    <project path="device/xiaomi/angelica" name="android_device_xiaomi_angelica.git" remote="Krxyzn" revision="thirteen-29" />
+    <project path="vendor/xiaomi/angelica" name="android_vendor_angelica.git" remote="Krxyzn" revision="thirteen-29" /> 
     
 </manifest>
